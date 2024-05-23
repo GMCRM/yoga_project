@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warmer colors */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.workout-container {
+    text-align: center;
+    background:  rgba(0, 0, 0, 0.5); /* Semi-opaque gradient background */
+    padding: 30px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px; /* Adjust margin for spacing */
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fefefe;
+}
+
+label {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7e5f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #feb47b;
+}
+
+.timer-container {
+    margin-top: 20px;
+    background: #333; /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#timer {
+    font-size: 3rem;
+    color: #fff; /* White text on dark background */
+    margin-top: 20px;
+}
+
+.smart-watch-container, .end-smart-watch-container {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.icon img{
+    border-radius: 50%;
+}
